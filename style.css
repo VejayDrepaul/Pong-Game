@@ -14,9 +14,9 @@ body {
 }
 
 .board {
-    height: 85vh;
+    height: 100vh;
     width: 100vw;
-    background-color: #1900fc;
+    background-color: #000000;
     border-radius: 14px;
 }
 
