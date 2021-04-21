@@ -15,8 +15,8 @@ body {
 
 .board {
     height: 85vh;
-    width: 80vw;
-    background-color: #000000;
+    width: 100vw;
+    background-color: #1900fc;
     border-radius: 14px;
 }
 
@@ -46,13 +46,13 @@ body {
 .paddle_1 {
     color: #ffffff;
     top: calc(7.5vh + 55px);
-    left: calc(10vw + 30px);
+    left: 20px;
 }
 
 .paddle_2 {
     color: #ffffff;
     top: calc(85vh + 7.5vh - 100px - 55px);
-    right: calc(10vw + 30px);
+    right: 20px;
 }
 
 .player_1_score {
@@ -74,8 +74,6 @@ body {
 }
 
 .message {
-    position: fixed;
+    text-align: center;
     color: #ffffff;
-    left: 38vw;
-    margin: 30px auto auto auto;
 }
